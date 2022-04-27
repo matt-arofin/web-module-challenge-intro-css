@@ -59,7 +59,7 @@ div .title-bar {
     max-height: auto;
     display: inline-block;
 }
-
+/*align-items and align-content are flexbox commands*/
 .container {
     align-content: center;
     margin-left: 5%;
