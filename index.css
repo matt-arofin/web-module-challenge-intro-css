@@ -13,29 +13,123 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+} 
 
 * {
-    font: Roboto Mono;
-    src: https://fonts.google.com/specimen/Roboto+Mono;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
 
 
 h1 {
-    
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
 }
+
+section {
+    padding: 4% 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 2% 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.plan {
+    background: #FF764E;
+    margin-left: 10%;
+}
+
+.learn {
+    background: #5ED3EB;
+    margin: 0 24%;
+}
+
+.volunteer{
+    background: #FFCD69;
+    margin-right: 10%;
+}
+
+.landing {
+    position: relative;
+}
+
+.title-img, .title-text {
+    display: inline-block
+}
+
+.title-img {
+    width: 30%;
+}
+
+.title-text {
+    width: 55%;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 3;
+    position: absolute;
+}
+
+.round-img {
+    border-radius: 50%;
+}
+
+.beige {
+    background-color: #DDB9A3;
+    color: #fff;
+    padding: 2%;
+}
+
+.icons div {
+    width: 30%;
+    margin: 5% auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bg-img {
+    background-image: url('assets/footer_img.png');
+    height: 40vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
 
 footer {
-    
+    background-color: #F9E7DC;
 }
 
-nav a{
-    width: 10%;
+/*nav a{
+    width: 5%;
     height: 1%;
     margin: 5%;
     padding: 3% 1%;
@@ -60,7 +154,7 @@ div .title-bar {
     display: inline-block;
 }
 /*align-items and align-content are flexbox commands*/
-.container {
+/*.container {
     align-content: center;
     margin-left: 5%;
     margin-right: 5%;
@@ -70,19 +164,13 @@ div .title-bar {
 
 header h1 {
     font: Chelsea Market;
-    src: https://fonts.google.com/specimen/Chelsea+Market;
+    src: (https://fonts.google.com/specimen/Chelsea+Market);
 }
 
-nav .plan {
-    background: #FF764E
-}
 
-nav .learn {
-    background: #5ED3EB;
-}
 
-nav .volunteer{
-    background: #FFCD69;
+.bottom-img {
+    background-image: (assets/footer_img.png);
 }
 
 .content {
